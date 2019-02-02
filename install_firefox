@@ -1,0 +1,9 @@
+wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/45.0.1/linux-i686/en-US/firefox-45.0.1.tar.bz2
+
+tar xvf firefox*.tar.bz2
+./firefox/firefox
+
+sudo mv firefox/ /opt
+sudo ln -s /opt/firefox/firefox /usr/bin/firefox-new
+
+
